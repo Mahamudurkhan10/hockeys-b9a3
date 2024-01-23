@@ -69,21 +69,21 @@
         <section class="mt-14">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
-                  <img src="Images/1.png" class="w-full" />
+                  <img src="Images/1.png" class="w-full relative" />
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide3" class="btn btn-circle">❮</a> 
                     <a href="#slide2" class="btn btn-circle">❯</a>
                   </div>
                 </div> 
                 <div id="slide2" class="carousel-item relative w-full">
-                  <img src="Images/4.png" class="w-full" />
+                  <img src="Images/4.png" class="w-full relative" />
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" class="btn btn-circle">❮</a> 
                     <a href="#slide3" class="btn btn-circle">❯</a>
                   </div>
                 </div> 
                 <div id="slide3" class="carousel-item relative w-full">
-                  <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                  <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full relative" />
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide2" class="btn btn-circle">❮</a> 
                     <a href="#slide1" class="btn btn-circle">❯</a>
@@ -91,13 +91,20 @@
                 </div> 
               </div>
         </section>
+        <section>
+          <div class="flex items-center justify-center  lg:absolute lg:-mt-[200px] lg:ml-[600px] "><button class="btn btn-neutral w-full h-1/2  lg:w-1/2 lg:h-full ">
+            <h1 class=" text-base lg:text-2xl font-extrabold text-[#FFFFFF]">Meet all the heroes from the field</h1>
+            <p class="text-xs font-medium text-[#FFFFFF99]">If you take a look at the numbers, you can understand why Minnesota is often referred to as the State of Hockey.</p>
+
+          </button></div>
+        </section>
 
     </header>
     <main class="container mx-auto">
             <section class="mt-10">
                 <div class="flex justify-center flex-col items-center p-5 ">
                     <h2 class="text-4xl text-[#131318] font-extrabold px-2 ">Professional Hockeys Club</h2>
-                    <p class="text-base font-medium  lg:w-2/3 mt-2 " >Professional ice hockey (hockey) is the competition of ice hockey in which participants are paid to play.was hokey beyond belief and most people's endurance
+                    <p class="text-base font-medium text-[#13131899] text-center mt-2 " >Professional ice hockey (hockey) is the competition of ice hockey in which participants are paid to play.was <br> hokey beyond belief and most people's endurance
                     </p>
                 </div>
                 <div class="flex flex-col items-center gap-10 mt-10 lg:flex-row">
@@ -124,139 +131,190 @@
                 
             </div>
             </section>
-            <section class="mt-5">
-                <div>
+            <section>
+              <div class="flex flex-col justify-center items-center">
+                <h1 class="text-4xl font-extrabold text-[#131318]">Program Sections</h1>
+                <p class="text-base font-medium text-[#13131899] text-center">The game is divided into three periods of 20 minutes  playing time each, with <br> a 15-minute intermission between periods.</p>
+              </div>
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-5">
+                <div class="hero " style="background-image: url(/Images/2.png);">
+                  <div class="hero-overlay bg-opacity-60"></div>
+                  <div class="hero-content text-start text-neutral-content">
+                    <div >
+                      <h1 class="mb-5 text-3xl font-extrabold">Junior Program</h1>
+                      <p class="mb-5 w-1/2 text-base font-medium text-[#ffffff]">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda  excepturi exercitationem quasi.  In deleniti eaque aut repudiandae et a id nisi.</p>
+                      <button class="btn btn-error text-base font-bold text-[#fff] ">Register Now!</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="hero " style="background-image: url(/Images/3.png);">
+                  <div class="hero-overlay bg-opacity-60"></div>
+                  <div class="hero-content text-start text-neutral-content">
+                    <div >
+                      <h1 class="mb-5 text-3xl font-extrabold">Teenager Program</h1>
+                      <p class="mb-5 w-1/2 text-base font-medium text-[#ffffff]">Each class is further divided into eight sections. There are currently 148 varsity teams (70 AA and 78 A) competing for the state AA and A championships..</p>
+                      <button class="btn btn-error text-base font-bold text-[#fff] ">Register Now!</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="hero lg:h-[35vh] object-cover mt-5" style="background-image: url(/Images/4.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content  text-start text-neutral-content">
+                  <div >
+                    <h1 class="mb-5 text-3xl font-extrabold">Professional Program</h1>
+                    <p class="mb-5 w-1/2 text-base font-medium text-[#FFFFFF]">A hockey ball doesn't have a specific name, and they are typically referred to as field hockey balls or hockey balls.</p>
+                    <button class="btn btn-error text-base font-bold text-[#fff] ">Register Now!</button>
+                  </div>
+                </div>
+              </div>
+
+            </section>
+            <section class="mt-7">
+                <div class="mb-12 mt-11">
                     <h2 class="text-4xl font-extrabold text-[#131318] text-center">Our New Products</h2>
                     <p class="text-base font-medium text-center  ">Product development -- also called new product management -- is a series of <br>steps that includes the conceptualization</p>
                 </div>
               
-                       <div class="grid grid-cols-1 mt-8 gap-11 lg:grid-cols-2">
-                        <div class=" hero-content gap-4 flex-col lg:flex-row">
+                       <div class="grid grid-cols-1 mt-6  gap-11 lg:grid-cols-2">
+                     <div class="flex-1 ">
+                      <div class=" flex gap-4 flex-col justify-center items-center lg:flex-row">
                         
-                            <div class="  gap-5 flex-col lg:flex-row">
-                              <img src="Images/5.png" class="max-w-sm rounded-lg shadow-2xl" />
-                            </div>
-                            
-                               <div>
-                                <div class="space-x-2">
-                                    <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 5.0</span>
-                                    <span><i class="fa-regular fa-eye"></i> 20</span>
-                                    <span> <i class="fa-regular fa-heart"></i> 200</span>
-                                </div>
-                                <h1 class="text-xl font-extrabold py-3">World Cup Flags Football</h1>
-                                <p >The market is massive for an online seller, but <br>it’s also competitive</p>
-                                <div class="flex gap-4 py-2">
-                                <h2 class="text-red-primary text-lg font-extrabold">Price - $22.00</h2>
-                                <span class="text-base font-medium"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</span>
-                                </div>
-                               </div>
-                                                                     
-                       </div>
-                        <div class=" hero-content gap-4 flex-col lg:flex-row">
+                        <div >
+                          <img src="Images/5.png" class="max-w-sm rounded-lg shadow-2xl" />
+                        </div>
                         
-                            <div class=" flex gap-5 flex-col lg:flex-row">
-                              <img src="Images/6.png" class="max-w-sm rounded-lg shadow-2xl" />
+                           <div>
+                            <div class="space-x-2">
+                                <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 5.0</span>
+                                <span><i class="fa-regular fa-eye"></i> 20</span>
+                                <span> <i class="fa-regular fa-heart"></i> 200</span>
                             </div>
-                            
-                               <div>
-                                <div class="space-x-2">
-                                    <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 5.0</span>
-                                    <span><i class="fa-regular fa-eye"></i> 20</span>
-                                    <span> <i class="fa-regular fa-heart"></i> 200</span>
-                                </div>
-                                <h1 class="text-xl font-extrabold py-3">World Cup Flags Football</h1>
-                                <p >The market is massive for an online seller, but <br>it’s also competitive</p>
-                                <div class="flex gap-4 py-2">
-                                <h2 class="text-red-primary text-lg font-extrabold">Price - $22.00</h2>
-                                <span class="text-base font-medium"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</span>
-                                </div>
-                               </div>
-                                                                     
-                       </div>
-                        <div class=" hero-content gap-4 flex-col lg:flex-row">
+                            <h1 class="text-xl font-extrabold py-3">World Cup Flags Football</h1>
+                            <p >The market is massive for an online seller, but <br>it’s also competitive</p>
+                            <div class="flex gap-4 py-2">
+                            <h2 class="text-red-primary text-lg font-extrabold">Price - $22.00</h2>
+                            <span class="text-base font-medium"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</span>
+                            </div>
+                           </div>
+                                                                 
+                   </div>
+                     </div>
+                       <div class="flex-1 lg:ml-[160px]">
+                        <div class=" flex gap-4 flex-col justify-center items-center lg:flex-row">
                         
-                            <div class=" flex gap-5 flex-col lg:flex-row">
-                              <img src="Images/7.png" class="max-w-sm rounded-lg shadow-2xl" />
-                            </div>
-                            
-                               <div>
-                                <div class="space-x-2">
-                                    <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 5.0</span>
-                                    <span><i class="fa-regular fa-eye"></i> 20</span>
-                                    <span> <i class="fa-regular fa-heart"></i> 200</span>
-                                </div>
-                                <h1 class="text-xl font-extrabold py-3">World Cup Flags Football</h1>
-                                <p >The market is massive for an online seller, but <br>it’s also competitive</p>
-                                <div class="flex gap-4 py-2">
-                                <h2 class="text-red-primary text-lg font-extrabold">Price - $22.00</h2>
-                                <span class="text-base font-medium"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</span>
-                                </div>
-                               </div>
-                                                                     
+                          <div >
+                            <img src="Images/6.png" class="max-w-sm rounded-lg shadow-2xl" />
+                          </div>
+                          
+                             <div>
+                              <div class="space-x-2">
+                                  <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 5.0</span>
+                                  <span><i class="fa-regular fa-eye"></i> 20</span>
+                                  <span> <i class="fa-regular fa-heart"></i> 200</span>
+                              </div>
+                              <h1 class="text-xl font-extrabold py-3">World Cup Flags Football</h1>
+                              <p >The market is massive for an online seller, but <br>it’s also competitive</p>
+                              <div class="flex gap-4 py-2">
+                              <h2 class="text-red-primary text-lg font-extrabold">Price - $22.00</h2>
+                              <span class="text-base font-medium"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</span>
+                              </div>
+                             </div>
+                                                                   
+                     </div>
                        </div>
-                        <div class=" hero-content gap-4 flex-col lg:flex-row">
+                      <div class="flex-1">
+                        <div class=" flex gap-2 flex-col justify-center items-center lg:flex-row">
                         
-                            <div class=" flex gap-5 flex-col lg:flex-row">
-                              <img src="Images/8.png" class="max-w-sm rounded-lg shadow-2xl" />
-                            </div>
-                            
-                               <div>
-                                <div class="space-x-2">
-                                    <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 5.0</span>
-                                    <span><i class="fa-regular fa-eye"></i> 20</span>
-                                    <span> <i class="fa-regular fa-heart"></i> 200</span>
-                                </div>
-                                <h1 class="text-xl font-extrabold py-3">World Cup Flags Football</h1>
-                                <p >The market is massive for an online seller, but <br>it’s also competitive</p>
-                                <div class="flex gap-4 py-2">
-                                <h2 class="text-red-primary text-lg font-extrabold">Price - $22.00</h2>
-                                <span class="text-base font-medium"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</span>
-                                </div>
-                               </div>
-                                                                     
-                       </div>
-                        <div class=" hero-content gap-4 flex-col lg:flex-row">
+                          <div>
+                            <img src="Images/7.png" class="max-w-sm rounded-lg shadow-2xl" />
+                          </div>
+                          
+                             <div>
+                              <div class="space-x-2">
+                                  <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 5.0</span>
+                                  <span><i class="fa-regular fa-eye"></i> 20</span>
+                                  <span> <i class="fa-regular fa-heart"></i> 200</span>
+                              </div>
+                              <h1 class="text-xl font-extrabold py-3">World Cup Flags Football</h1>
+                              <p >The market is massive for an online seller, but <br>it’s also competitive</p>
+                              <div class="flex gap-4 py-2">
+                              <h2 class="text-red-primary text-lg font-extrabold">Price - $22.00</h2>
+                              <span class="text-base font-medium"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</span>
+                              </div>
+                             </div>
+                                                                   
+                     </div>
+                      </div>
+                       <div class="flex-1 lg:ml-[160px]">
+                        <div class=" flex gap-4 flex-col justify-center items-center lg:flex-row">
                         
-                            <div class=" flex gap-5 flex-col lg:flex-row">
-                              <img src="Images/9.png" class="max-w-sm rounded-lg shadow-2xl" />
-                            </div>
-                            
-                               <div>
-                                <div class="space-x-2">
-                                    <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 5.0</span>
-                                    <span><i class="fa-regular fa-eye"></i> 20</span>
-                                    <span> <i class="fa-regular fa-heart"></i> 200</span>
-                                </div>
-                                <h1 class="text-xl font-extrabold py-3">World Cup Flags Football</h1>
-                                <p >The market is massive for an online seller, but <br>it’s also competitive</p>
-                                <div class="flex gap-4 py-2">
-                                <h2 class="text-red-primary text-lg font-extrabold">Price - $22.00</h2>
-                                <span class="text-base font-medium"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</span>
-                                </div>
-                               </div>
-                                                                     
+                          <div>
+                            <img src="Images/8.png" class="max-w-sm rounded-lg shadow-2xl" />
+                          </div>
+                          
+                             <div>
+                              <div class="space-x-2">
+                                  <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 5.0</span>
+                                  <span><i class="fa-regular fa-eye"></i> 20</span>
+                                  <span> <i class="fa-regular fa-heart"></i> 200</span>
+                              </div>
+                              <h1 class="text-xl font-extrabold py-3">World Cup Flags Football</h1>
+                              <p >The market is massive for an online seller, but <br>it’s also competitive</p>
+                              <div class="flex gap-4 py-2">
+                              <h2 class="text-red-primary text-lg font-extrabold">Price - $22.00</h2>
+                              <span class="text-base font-medium"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</span>
+                              </div>
+                             </div>
+                                                                   
+                     </div>
                        </div>
-                        <div class=" hero-content gap-4 flex-col lg:flex-row">
+                     <div class="flex-1">
+                      <div class=" flex gap-4 flex-col justify-center items-center lg:flex-row">
                         
-                            <div class=" flex gap-5 flex-col lg:flex-row">
-                              <img src="Images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
+                        <div >
+                          <img src="Images/9.png" class="max-w-sm rounded-lg shadow-2xl" />
+                        </div>
+                        
+                           <div>
+                            <div class="space-x-2">
+                                <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 5.0</span>
+                                <span><i class="fa-regular fa-eye"></i> 20</span>
+                                <span> <i class="fa-regular fa-heart"></i> 200</span>
                             </div>
-                            
-                               <div>
-                                <div class="space-x-2">
-                                    <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 5.0</span>
-                                    <span><i class="fa-regular fa-eye"></i> 20</span>
-                                    <span> <i class="fa-regular fa-heart"></i> 200</span>
-                                </div>
-                                <h1 class="text-xl font-extrabold py-3">World Cup Flags Football</h1>
-                                <p >The market is massive for an online seller, but <br>it’s also competitive</p>
-                                <div class="flex gap-4 py-2">
-                                <h2 class="text-red-primary text-lg font-extrabold">Price - $22.00</h2>
-                                <span class="text-base font-medium"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</span>
-                                </div>
-                               </div>
-                                                                     
-                       </div>
+                            <h1 class="text-xl font-extrabold py-3">World Cup Flags Football</h1>
+                            <p >The market is massive for an online seller, but <br>it’s also competitive</p>
+                            <div class="flex gap-4 py-2">
+                            <h2 class="text-red-primary text-lg font-extrabold">Price - $22.00</h2>
+                            <span class="text-base font-medium"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</span>
+                            </div>
+                           </div>
+                                                                 
+                   </div>
+                     </div>
+                      <div class="flex-1 lg:ml-[160px]">
+                        <div class=" flex gap-4 flex-col justify-center items-center lg:flex-row">
+                        
+                          <div >
+                            <img src="Images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
+                          </div>
+                          
+                             <div>
+                              <div class="space-x-2">
+                                  <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 5.0</span>
+                                  <span><i class="fa-regular fa-eye"></i> 20</span>
+                                  <span> <i class="fa-regular fa-heart"></i> 200</span>
+                              </div>
+                              <h1 class="text-xl font-extrabold py-3">World Cup Flags Football</h1>
+                              <p class="text-[#13131899] text-base font-medium">The market is massive for an online seller, but <br>it’s also competitive</p>
+                              <div class="flex gap-4 py-2">
+                              <h2 class="text-red-primary text-lg font-extrabold">Price - $22.00</h2>
+                              <span class="text-base font-medium"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</span>
+                              </div>
+                             </div>
+                                                                   
+                     </div>
+                      </div>
                        </div>
                        
                   
@@ -265,14 +323,14 @@
 
               
             </section>
-            <section class="mt-5">
+            <section class="mt-12">
                 <div class="flex flex-col items-center justify-center">
                     <h2 class="text-4xl font-extrabold text-[#131318]">Clients Question</h2>
                     <p class="text-base font-medium ">Their hopes, dreams, disappointments, their well...you get the idea.</p>
                 </div>
                 <div class="flex flex-col py-7 gap-10 lg:flex-row">
                     <div >
-                        <img src="Images/11.png" alt="" >
+                        <img src="Images/11.png" alt="" class="h-full w-full" >
                     </div>
                     <div >
                         <div class="collapse collapse-plus bg-base-200">
@@ -330,9 +388,134 @@
                     </div>
                 </div>
             </section>
-    </main>
-    <footer>
+            <section class="mt-12">
+              <div class="flex flex-col items-center justify-center">
+                <h2 class="text-4xl font-extrabold text-[#131318]">Get In Touch</h2>
+                <p class="text-[#13131899] text-base font-medium">“I don’t know how long he plans on being absent, but it is very thoughtless of him not to have got in touch with</p>
+              </div>
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-5 ">
+                <div class="card shadow-lg w-90">
+                  <div >                 
+                    <div class="card-body bg-[#BCED6D1A] rounded-lg ">
+                    <h1>  <img src="Images/Group 1171275317.png" alt=""></h1>
+                      <p class="text-[#13131899] text-base font-medium">Phone Number : <br><span class="text-lg font-extrabold">(+62) 123-321-543</span></p>
+                    
+                      </div>
+                    </div>
+                  <div >                 
+                    <div class="card-body bg-[#FDDD5F1A] rounded-lg">
+                    <h1>  <img src="Images/Group 1171275318.png" alt=""></h1>
+                      <p class="text-[#13131899] text-base font-medium">Email :  <br><span class="text-lg font-extrabold">hockeys@support.com</span></p>
+                    
+                      </div>
+                    </div>
+                  <div >                 
+                    <div class="card-body bg-[#629CF31A] rounded-lg">
+                    <h1>  <img src="Images/Group 1171275321.png" alt=""></h1>
+                      <p class="text-[#13131899] text-base font-medium">Location :  <br><span class="text-lg font-extrabold">152/1 Mohakhali Wireless Gate</span></p>
+                    
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-7 mb-5 ">
 
+                     <div>
+                      <label for=""class="text-lg font-bold text-[#131318]">Your Name :</label>
+                       <input type="text" placeholder="Enter your full name " class="input input-bordered w-full " />
+                    </div>
+                     <div>
+                      <label for=""class="text-lg font-bold text-[#131318]">Your Email :</label>
+                       <input type="text" placeholder="Enter your email" class="input input-bordered w-full" />
+                    </div>
+                     <div>
+                      <label for=""class="text-lg font-bold text-[#131318]">Your Email :</label>
+                       <input type="text" placeholder="Enter your email" class="input input-bordered w-full" />
+                    </div>
+                     <div>
+                      <label for=""class="text-lg font-bold text-[#131318]">Your Email :</label>
+                       <input type="text" placeholder="Enter your email" class="input input-bordered w-full" />
+                    </div>
+                    </div >
+                   <div class="">
+                    <label for="" class="text-base font-bold text-[#131318]  ">Message :</label><br>
+                    <textarea class="textarea textarea-bordered mt-1 w-full h-1/3  " placeholder="Write your message"></textarea>
+                    <div>
+                      <button class="btn btn-error  w-full mt-4 text-base font-bold text-white">Send Message</button>
+                    </div>
+                   </div>
+                  </div>
+                  
+                 
+              </div>
+              
+            </section>
+            <section class="flex flex-col w-full items-center justify-center mt-16 py-5 rounded-xl bg-[#4545e208]">
+              <div class="pt-12">
+                <h2 class="text-2xl font-extrabold text-[#131318]">Social Media</h2>
+              </div>
+              <div>
+                <span><i class="fa-brands fa-twitter"></i></span>
+                <span><i class="fa-brands fa-facebook"></i></span>
+                <span><i class="fa-brands fa-instagram"></i></span>
+                <span><i class="fa-brands fa-github"></i></span>
+              </div>
+            </section>
+
+    </main>
+    <footer class="   px-5 bg-black mt-12 p-4 ">
+     <div class="grid grid-cols-1 lg:grid-cols-3 ">
+      <div class="text-center">
+        <h1 class="text-3xl font-extrabold text-[#FFFFFF]">Get In Touch</h1>
+        <p  class="text-base font-medium text-[#FFFFFF99]">Whether you’re a teacher or a learner, Vocabulary. <br> com can put you or your class  on the path <br> to systematic vocabulary improvement.</p>
+        <p class="text-base font-medium text-[#FFFFFF99]"><i class="fa-solid fa-envelope"></i> hockeys@support.com</p>
+        <p class="text-base font-medium text-[#FFFFFF99]"><i class="fa-solid fa-phone"></i> (+62) 123-321-543</p>
+      </div>
+      <div class="flex justify-between items-center">
+        <div>
+          <h1 class="text-lg font-bold text-[#fff]">Company</h1>
+          <p  class="text-base font-medium text-[#FFFFFF99]">
+          <a class="link link-hover">  About us </a><br>
+          <a class="link link-hover"> Leadership </a><br>
+          <a class="link link-hover">  Careers </a><br>         
+          <a class="link link-hover">   News & Article</a><br>
+          <a class="link link-hover">   Legal Notice </a>
+          <br>
+          <br>
+          <br>
+
+            
+          
+          </p>
+        </div>
+        <div>
+          <h1 class="text-lg font-bold text-[#fff]">Support</h1>
+          <p class="text-base font-medium text-[#FFFFFF99]">
+            <a class="link link-hover">   HelpCenter </a><br>
+            <a class="link link-hover">    FAQ </a><br>
+            <a class="link link-hover">   Ticket Support </a><br>
+            <a class="link link-hover">    Contact Us</a><br>
+            <br>
+           <br>
+            <br>
+          
+          </p>
+        </div>
+      </div>
+      <div class="text-center">
+        <h1 class="text-lg font-bold text-[#fff]">Services</h1>
+        <p class="text-base font-medium text-[#FFFFFF99]">
+          <a class="link link-hover">        Academy</a><br>
+          <a class="link link-hover">     Group Lesson</a><br>
+          <a class="link link-hover">    Private Lesson</a><br>
+          <a class="link link-hover">    Hockeys for kids</a><br>
+          <a class="link link-hover">     Hockeys for Adult</a><br>
+       <br>
+          <br>
+         
+        </p>
+      </div>
+     </div>
     </footer>
 
 </body>
